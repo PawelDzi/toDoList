@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link href="style/style.css" rel="stylesheet" />
     <link href="style/container.css" rel="stylesheet" />
-    <script src="script/script.js"></script>
+    <script defer src="script/script.js"></script>
 </head>
 
 <body>
@@ -18,9 +18,9 @@
         <div class="containers">
             <div class="container__item container__item--text">Dodaj nowe zadanie</div>
             <div class="container__item">
-                <form class="container__form">
+                <form class="container__form js-form">
                     <label>
-                        <input class="container__formInput" type="text" placeholder="Co jest do zrobienia?" autofocus>
+                        <input class="container__formInput js-newTask" type="text" placeholder="Co jest do zrobienia?" autofocus>
                     </label>
                     <label>
                         <button class="container__formButton">Dodaj zadanie</button>
@@ -30,7 +30,9 @@
         </div>
         <div class="containers">
             <div class="container__item container__item--text">Lista zadań</div>
-            <div class="container__item"></div>
+            <div class="container__item">
+                <ul class="js-tasks"></ul>
+            </div>
         </div>
     </div>
 </body>
