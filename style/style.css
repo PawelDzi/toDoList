@@ -9,6 +9,6 @@ html {
 
 body {
     background-color: #f0efef;
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
 }
