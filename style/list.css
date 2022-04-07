@@ -1,0 +1,33 @@
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;    
+}
+
+.js-li {
+    border-bottom: 1px solid #cacaca;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 20fr 1fr;
+    align-items: center;
+}
+
+.js-done {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    height: 32px;
+    width: 32px;
+}
+
+.js-remove {
+    background-color: #cc0202de;
+    border: none;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    height: 32px;
+    width: 32px;
+}
