@@ -6,9 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>toDoList</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link href="style/style.css" rel="stylesheet" />
     <link href="style/container.css" rel="stylesheet" />
+    <link href="style/form.css" rel="stylesheet" />
+    <link href="style/list.css" rel="stylesheet" />
+    <link href="font/fontello.css" rel="stylesheet" />
     <script defer src="script/script.js"></script>
 </head>
 
@@ -18,12 +22,12 @@
         <div class="containers">
             <div class="container__item container__item--text">Dodaj nowe zadanie</div>
             <div class="container__item">
-                <form class="container__form js-form">
+                <form class="form js-form">
                     <label>
-                        <input class="container__formInput js-newTask" type="text" placeholder="Co jest do zrobienia?" autofocus>
+                        <input class="form__input js-newTask" type="text" placeholder="Co jest do zrobienia?" autofocus>
                     </label>
                     <label>
-                        <button class="container__formButton">Dodaj zadanie</button>
+                        <button class="form__button">Dodaj zadanie</button>
                     </label>
                 </form>
             </div>
@@ -31,7 +35,7 @@
         <div class="containers">
             <div class="container__item container__item--text">Lista zadań</div>
             <div class="container__item">
-                <ul class="js-tasks"></ul>
+                <ul class="list js-tasks"></ul>
             </div>
         </div>
     </div>
