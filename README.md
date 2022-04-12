@@ -1,6 +1,6 @@
 # Paweł Dzierzbicki - toDoList
 
-![gif](https://im3.ezgif.com/tmp/ezgif-3-f94a4b4777.gif)
+![gif](https://im3.ezgif.com/tmp/ezgif-3-6401bf9ba1.gif)
 
 ## Languages
 HTML, CSS, JacaScript
