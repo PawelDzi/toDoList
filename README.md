@@ -3,7 +3,7 @@
 ## About the application
 You can add new task, check if it is done or delete it
 
-![gif](https://im3.ezgif.com/tmp/ezgif-3-6401bf9ba1.gif)
+![gif](https://ibb.co/N1gzHx1)
 
 ## Languages
 HTML, CSS, JacaScript
