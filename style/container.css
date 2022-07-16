@@ -12,6 +12,22 @@
     padding: 15px;
 }
 
+.container__item--section {
+    border-bottom: 1px solid #ddd;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+@media (max-width: 767px){
+    .container__item--section {
+        grid-template-columns: 1fr;
+    }
+}
+
 .containers {
     margin: 10px 0;
 }

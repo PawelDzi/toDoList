@@ -11,10 +11,12 @@
     width: 100%;
     padding: 10px;
     cursor: pointer;
+    transition:  0.3s;
 }
 
 .form__button:hover {
     background-color: #007070;
+    transition: scale(1.1);
 }
 
 .form {
